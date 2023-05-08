@@ -32,8 +32,20 @@
         </div>
     </div>
         <div class="col s12 m6" id="ventas">
+            <table class="table" id="tabla-ventas">
+                <thead>
+                  <tr>
+                    <th scope="col">name_seller</th>
+                    <th scope="col">name_client</th>
+                    <th scope="col">name_product</th>
+                    <th scope="col">price</th>
+                    <th scope="col">date</th>
+                  </tr>
+                </thead>
+              </table>
+              <button onclick="llenarTabla()">Obtener datos</button>
         </div>
-    </div>
+
     <script src="get_redirect.js"></script>
     <script src="post.js"></script>
 </body>
